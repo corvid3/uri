@@ -14,9 +14,9 @@ internal = { }
 external = { }
 
 [cxx]
-flags = { "-Wall" "-Wextra" "-Werror" }
+flags = { "-Wall" "-Wextra" "-Werror" "-O0" }
 std = 23
-sources = { "uri.cc" }
+sources = { "uri.cc" "utils.cc" }
 
 [c]
 flags = { "-Wall" "-Wextra" "-Werror" }
